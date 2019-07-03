@@ -42,7 +42,7 @@
 
 		\n\n Enjoy
 	</string>
-    <string name="swype.help" tools:ignore="ExtraTranslation">The \'Swipe to dismiss\' behavior allows you to easily add the \'Swipe to dismiss\' functionality in a View inside a CoordinatorLayout</string>
+    <string name="swype_help" tools:ignore="ExtraTranslation">The \'Swipe to dismiss\' behavior allows you to easily add the \'Swipe to dismiss\' functionality in a View inside a CoordinatorLayout</string>
     <string name="title_mup_name" tools:ignore="ExtraTranslation">Saúl Molinero</string>
     <string name="subtitle_mup" tools:ignore="ExtraTranslation">Here I am with a subtitle</string>
 </resources>
