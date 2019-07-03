@@ -32,7 +32,7 @@ public class FlexibleSpaceExampleActivity extends AppCompatActivity implements A
             }
         });
 
-        AppBarLayout appbar = (AppBarLayout) findViewById(R.id.flexible_example_appbar);
+        AppBarLayout appbar = findViewById(R.id.flexible_example_appbar);
         appbar.addOnOffsetChangedListener(this);
     }
 

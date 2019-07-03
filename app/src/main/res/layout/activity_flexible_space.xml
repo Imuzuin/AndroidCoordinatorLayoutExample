@@ -3,21 +3,21 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
-	android:id="@+id/annonce.main.coordinator"
+	android:id="@+id/annonce_main_coordinator"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	tools:ignore="RtlHardcoded"
 	>
 
 	<com.google.android.material.appbar.AppBarLayout
-		android:id="@+id/flexible.example.appbar"
+		android:id="@+id/flexible_example_appbar"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
 		>
 
 		<com.google.android.material.appbar.CollapsingToolbarLayout
-			android:id="@+id/flexible.example.collapsing"
+			android:id="@+id/flexible_example_collapsing"
 			android:layout_width="match_parent"
 			android:layout_height="300dp"
 			app:title="@string/flexible_title"
@@ -36,7 +36,7 @@
 				/>
 
 			<androidx.appcompat.widget.Toolbar
-				android:id="@+id/flexible.example.toolbar"
+				android:id="@+id/flexible_example_toolbar"
 				android:layout_width="match_parent"
 				android:layout_height="?attr/actionBarSize"
 				android:background="@null"
@@ -61,7 +61,7 @@
 			>
 
 			<androidx.cardview.widget.CardView
-				android:id="@+id/flexible.example.cardview"
+				android:id="@+id/flexible_example_cardview"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				app:contentPaddingBottom="16dp"
@@ -101,13 +101,13 @@
 	</androidx.core.widget.NestedScrollView>
 
 	<com.google.android.material.floatingactionbutton.FloatingActionButton
-		android:id="@+id/flexible.example.fab"
+		android:id="@+id/flexible_example_fab"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginRight="32dp"
 		android:elevation="8dp"
 		android:src="@drawable/ic_adb_24dp"
-		app:layout_anchor="@id/flexible.example.cardview"
+		app:layout_anchor="@id/flexible_example_cardview"
 		app:layout_anchorGravity="top|right|end"
 		tools:ignore="RtlHardcoded"
 		/>

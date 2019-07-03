@@ -15,7 +15,7 @@ public class IOActivityExample extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_io_detail);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.ioexample_toolbar);
+        Toolbar toolbar = findViewById(R.id.ioexample_toolbar);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
                 onBackPressed();

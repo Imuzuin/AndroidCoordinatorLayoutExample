@@ -7,14 +7,14 @@
 	>
 	​
 	<com.google.android.material.appbar.AppBarLayout
-		android:id="@+id/materialup.appbar"
+		android:id="@+id/materialup_appbar"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
 		>
 		​
 		<com.google.android.material.appbar.CollapsingToolbarLayout
-			android:id="@+id/main.collapsing"
+			android:id="@+id/main_collapsing"
 			android:layout_width="match_parent"
 			android:layout_height="200dp"
 			app:expandedTitleMarginStart="48dp"
@@ -22,7 +22,7 @@
 			app:layout_scrollFlags="scroll|snap"
 			>
 			<ImageView
-				android:id="@+id/materialup.profile_backdrop"
+				android:id="@+id/materialup_profile_backdrop"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"
 				android:scaleType="centerCrop"
@@ -32,7 +32,7 @@
 		</com.google.android.material.appbar.CollapsingToolbarLayout>
 		​​
 		<androidx.appcompat.widget.Toolbar
-			android:id="@+id/materialup.toolbar"
+			android:id="@+id/materialup_toolbar"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:minHeight="?attr/actionBarSize"
@@ -42,7 +42,7 @@
 			/>
 		​
 		<LinearLayout
-			android:id="@+id/materialup.title_container"
+			android:id="@+id/materialup_title_container"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:orientation="vertical"
@@ -71,7 +71,7 @@
 		</LinearLayout>
 		​
 		<com.google.android.material.tabs.TabLayout
-			android:id="@+id/materialup.tabs"
+			android:id="@+id/materialup_tabs"
 			android:layout_width="fill_parent"
 			android:layout_height="?attr/actionBarSize"
 			app:tabSelectedTextColor="?android:attr/textColorPrimaryInverse"
@@ -82,7 +82,7 @@
 	</com.google.android.material.appbar.AppBarLayout>
 	​
 	<androidx.viewpager.widget.ViewPager
-		android:id="@+id/materialup.viewpager"
+		android:id="@+id/materialup_viewpager"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -99,12 +99,12 @@
 		/>
 
 	<de.hdodenhof.circleimageview.CircleImageView
-		android:id="@+id/materialup.profile_image"
+		android:id="@+id/materialup_profile_image"
 		android:layout_width="96dp"
 		android:layout_height="96dp"
 		android:layout_gravity="center_horizontal"
 		android:src="@drawable/user_avatar"
-		app:layout_anchor="@id/materialup.title_container"
+		app:layout_anchor="@id/materialup_title_container"
 		android:elevation="8dp"
 		app:border_width="2dp"
 		app:border_color="#FFF"
