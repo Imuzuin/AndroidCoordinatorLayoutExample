@@ -98,7 +98,7 @@
                         />
 
                     <TextView
-                        android:id="@+id/main.coordinator.textview"
+                        android:id="@+id/main_coordinator_textview"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/item_simple_coordinator_example"
@@ -108,7 +108,7 @@
                         />
 
                     <TextView
-                        android:id="@+id/main.ioexample.textview"
+                        android:id="@+id/main_ioexample_textview"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/item_googleio_example"
@@ -118,7 +118,7 @@
                         />
 
                     <TextView
-                        android:id="@+id/main.materialup.textview"
+                        android:id="@+id/main_materialup_textview"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/item_materialup_example"
@@ -128,7 +128,7 @@
                         />
 
                     <TextView
-                        android:id="@+id/main.space.textview"
+                        android:id="@+id/main_space_textview"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/item_flexible_space_example"
@@ -138,7 +138,7 @@
                         />
 
                     <TextView
-                        android:id="@+id/main.swipebehavior.textview"
+                        android:id="@+id/main_swipebehavior_textview"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Swype Behavior example"

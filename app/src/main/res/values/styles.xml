@@ -1,7 +1,7 @@
-<resources>
-    <color name="brand_primary">#3E50B4</color>
-    <color name="brand_primary_dark">#3646A8</color>
-    <color name="brand_accent">#FE3E80</color>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="brand_primary" tools:ignore="MissingDefaultResource">#3E50B4</color>
+    <color name="brand_primary_dark" tools:ignore="MissingDefaultResource">#3646A8</color>
+    <color name="brand_accent" tools:ignore="MissingDefaultResource">#FE3E80</color>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/brand_primary</item>
